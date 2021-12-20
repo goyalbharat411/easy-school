@@ -6,13 +6,14 @@
 body {
   background-color: #fff;
   font-size: 13px;
+  font-family: 'Rubik', sans-serif;
 }
 @font-face {
   font-family: "Devlys";
   src: url("../webfonts/Devlys.ttf") format("truetype");
 }
 .topbar {
-  background: #b9b9bb;
+  background: #273238;
   color: #fff;
 }
 .topbar ul li {
@@ -28,8 +29,11 @@ body {
   margin-right: 1rem;
 }
 .topbar ul li a {
-  color: #000;
+  color: #f98346;
   text-decoration: none;
+}
+.topbar ul li a:hover {
+  color: #fff;
 }
 .header_nav .navbar-nav .nav-item {
   padding: 7px;
@@ -101,9 +105,189 @@ body {
   background: #e84c3d;
   font-size: 21px;
   text-transform: capitalize;
-  padding: 12px 35px;
+  padding: 8px 30px;
   font-weight: 600;
 }
 .middlelayer button:hover {
   background: #e84c3d;
 }
+.editable_text p {
+  font-size: 18px;
+  color: #7a7979;
+  text-transform: capitalize;
+  text-align: center;
+}
+.editable_text a {
+  font-size: 17px;
+}
+.list_items_group {
+  border-bottom: 1px dashed #d5d5d5;
+  padding-bottom: 50px;
+}
+.list_items_group p {
+  font-size: 19px;
+  color: #484848;
+  margin-bottom: 20px;
+}
+.list_items_group .first_column .first img{
+  /* margin-left: 20px; */
+}
+.list_items_group .first_column .second img{
+  margin-right: 20px;
+  /* margin-left: 20px; */
+}
+.list_items_group .first_column .third img{
+  margin-right: 50px;
+  /* margin-left: 20px; */
+}
+.list_items_group .first_column .fourth img{
+  margin-right: 70px;
+  /* margin-left: 20px; */
+}
+.list_items_group .third_column .first img{
+  /* margin-right: 20px; */
+}
+.list_items_group .third_column .second img{
+  /* margin-right: 20px; */
+  margin-left: 20px;
+}
+.list_items_group .third_column .third img{
+  /* margin-right: 20px; */
+  margin-left: 50px;
+}
+.list_items_group .third_column .fourth img{
+  /* margin-right: 20px; */
+  margin-left: 70px;
+}
+.benifits_school h2 {
+  color: #079da3;
+  font-size: 47px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+.benifits_school span {
+  color: #db4c4c;
+  font-size: 35px;
+}
+.benifits_school p {
+  line-height: 30px;
+  font-size: 16px;
+  text-align: justify;
+}
+.benifits_table .card.first {
+  border-top-left-radius: 30px;
+}
+.benifits_table .card.third {
+  border-top-right-radius: 30px;
+}
+.benifits_table .card {
+  border: 1px solid #d5d5d5;
+  box-shadow: none;
+  background: #e6e7e9;
+  height: 100%;
+  border-radius: 15px;
+}
+.benifits_table .card-title {
+  text-align: center;
+  font-size: 27px;
+  color: #275978;
+  font-weight: 600;
+}
+.benifits_table img {
+  width: 70%;
+  margin: 0 auto;
+}
+.benifits_table .uvp-list {
+  padding: 1.5rem 1.2rem;
+}
+.benifits_table .uvp-list ul {
+  padding-left: 10px;
+  list-style: none;
+  margin-bottom: 0;
+}
+ .uvp-list ul li {
+  margin-bottom: 10px;
+  font-size: 15px;
+  line-height: 26px;
+}
+.benifits_table .uvp-list ul > li:before {
+  content: "";
+  height: 1.5rem;
+  width: 1.5rem;
+  display: block;
+  float: left;
+  margin-left: -1.5rem;
+  background: url("https://info.openpath.com/hubfs/checkmark-round-orange.svg");
+  background-size: cover;
+  background-position: center;
+  padding: .15rem;
+}
+.section-title h2 {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #000;
+  letter-spacing: 0.3px;
+  padding: 0;
+}
+.section-title::after {
+  content: "";
+  height: 3px;
+  border-bottom: 1px dashed #ddd;
+  width: 250px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.bx-controls {
+position: relative;
+}
+.bx-wrapper .bx-pager {
+  text-align: center;
+  padding-top: 30px;
+}
+.bx-wrapper .bx-pager .bx-pager-item, .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+  display: inline-block;
+  *zoom: 1;
+  *display: inline;
+}
+.bx-wrapper .bx-pager.bx-default-pager a {
+  background: #666;
+  text-indent: -9999px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  outline: 0;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+.mobile_app {
+  background-image: linear-gradient(to right, #74c5d8, #4e8abc);
+}
+.mobile_app h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: italic;
+}
+.mobile_app h4 {
+  color: #fff;
+  font-size: 32px;
+  font-style: italic;
+}
+.mobile_app figcaption {
+  font-size: 15px;
+  color: #000;
+  line-height: 23px;
+  font-style: italic;
+}
+.mobile_app figcaption span {
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+}
+
