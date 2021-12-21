@@ -130,33 +130,33 @@ body {
   margin-bottom: 20px;
 }
 .list_items_group .first_column .first img{
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 .list_items_group .first_column .second img{
   margin-right: 20px;
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 .list_items_group .first_column .third img{
   margin-right: 50px;
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 .list_items_group .first_column .fourth img{
   margin-right: 70px;
-  /* margin-left: 20px; */
+  margin-left: 20px;
 }
 .list_items_group .third_column .first img{
-  /* margin-right: 20px; */
+  margin-right: 20px;
 }
 .list_items_group .third_column .second img{
-  /* margin-right: 20px; */
+  margin-right: 20px;
   margin-left: 20px;
 }
 .list_items_group .third_column .third img{
-  /* margin-right: 20px; */
+  margin-right: 20px;
   margin-left: 50px;
 }
 .list_items_group .third_column .fourth img{
-  /* margin-right: 20px; */
+  margin-right: 20px;
   margin-left: 70px;
 }
 .benifits_school h2 {
@@ -194,8 +194,9 @@ body {
   font-weight: 600;
 }
 .benifits_table img {
-  width: 70%;
+  width: 40%;
   margin: 0 auto;
+  height: 140px;
 }
 .benifits_table .uvp-list {
   padding: 1.5rem 1.2rem;
@@ -284,10 +285,169 @@ position: relative;
   color: #000;
   line-height: 23px;
   font-style: italic;
+  padding-top: 10px;
 }
 .mobile_app figcaption span {
   font-size: 17px;
   font-style: normal;
   font-weight: 600;
 }
+.mobile_app h5 {
+  color: #fff;
+  font-size: 35px;
+}
+.request_demo {
+  background: url('../img/Asset-28.png');
+  background-size: 100% 102%;
+}
+.request_demo h6 {
+  font-size: 32px;
+}
+/* hide arrows
+ Chrome, Safari, Edge, Opera */
+ input::-webkit-outer-spin-button,
+ input::-webkit-inner-spin-button {
+   -webkit-appearance: none !important;
+   margin: 0 !important;
+ }
+ 
+ /* Firefox */
+ input[type=number] {
+   -moz-appearance: textfield !important;
+ }
+ .request_demo .form-outline .form-control {
+  padding: 0.5rem 0.75em;
+  background: #ffffffbf;
+ }
+ .request_demo .form-outline .form-control~.form-label {
+  padding-top: 0.7rem;
+  font-size: 14px;
+ }
+ .request_demo a {
+  font-size: 15px;
+  color: #016738;
+  font-weight: 600;
+ }
+ .request_demo .btn {
+  background: #e84c3d;
+  font-size: 23px;
+  text-transform: uppercase;
+  padding: 15px 60px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 10px;
+ }
+ .footer {
+  background: #172b4c;
+ }
+ .footer ul {
+  padding-left: 17px;
+  list-style-type: none;
+ }
+ .footer ul li {
+  font-size: 16px;
+  color: #ffffffb8;
+  margin-bottom: 10px;
+}
+.footer ul li a {
+  color: #ffffffb8;
+}
+.footer h4 {
+  color: #fff;
+  font-size: 20px;
+}
+.footer .footer-links ul {
+  padding-left: 0px;
+}
+ul.social-network {
+	padding-left:0px;
+}
+ul.social-network li {
+	display: inline;
+	margin: 0 5px;
+    
+}
+/* footer social icons */
 
+.social-network a.icopinterest:hover {
+	background-color: #e60023;
+   
+}
+.social-network a.icoFacebook:hover {
+	background-color:#3B5998;
+}
+.social-network a.icowhatsapp:hover {
+	background-color:#529d9f;
+}
+.social-network a.icoinstagram:hover {
+	background-color:#ca3999;
+}
+.social-network a.icoyoutube:hover {
+	background-color:#ff0000;
+}
+.social-network a.icopinterest:hover i, .social-network a.icoFacebook:hover i, 
+.social-network a.icowhatsapp:hover i, .social-network a.icoinstagram:hover i, .social-network a.icoyoutube:hover i {
+	color:#fff;
+}
+a.socialIcon:hover, .socialHoverClass {
+	color:#44BCDD;
+}
+.social-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 50px;
+	height: 50px;
+	font-size:20px;
+}
+.social-circle li i {
+	margin:0;
+	line-height:50px;
+	text-align: center;
+}
+
+.social-circle li a:hover i, .triggeredHover {
+	-moz-transform: rotate(360deg);
+	-webkit-transform: rotate(360deg);
+	-ms--transform: rotate(360deg);
+	transform: rotate(360deg);
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	transition: all 0.2s;
+}
+.social-network a.icoRss {
+    color: grey;
+}
+.social-circle i {
+    color: #fff!important;
+}
+
+.social-network a{border: 1px solid #9d9595;}
+.social-network a:hover{border: none;}
+.social-circle i {
+	color: #fff;
+	-webkit-transition: all 0.8s;
+	-moz-transition: all 0.8s;
+	-o-transition: all 0.8s;
+	-ms-transition: all 0.8s;
+	transition: all 0.8s;
+}
+.footer h5 {
+  color: #ffffffb8;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.footer h6 {
+  color: #ffffffb8;
+  font-size: 15px;
+}
+.copyright {
+  background: #273238;
+  color: #fff;
+}

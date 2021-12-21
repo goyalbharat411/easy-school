@@ -1,0 +1,65 @@
+@media (min-width: 1500px) and (max-width: 1900px) {
+
+}
+@media (min-width: 1200px) and (max-width: 1500px) {
+
+}
+@media screen and (max-width:1199px) {
+    .main_slider .carousel-caption h5 {
+        font-size: 35px;
+    }  
+    .main_slider .carousel-caption p {
+        font-size: 25px;
+    }
+    .middlelayer .font_set {
+        font-size: 13px;
+    }
+    .middlelayer .font_set abbr {
+        font-size: 11px;
+    }
+    .middlelayer button {
+        padding: 8px 20px;
+    }
+    .list_items_group p {
+        font-size: 16px;
+    }
+    .list_items_group .first_column .first img {
+        margin-left: 10px;
+    }
+    .list_items_group .first_column .second img {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+    .list_items_group .first_column .third img {
+        margin-right: 10px;
+        margin-left: 15px;
+    }
+    .list_items_group .first_column .fourth img {
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+    .list_items_group .third_column .first img {
+        margin-right: 10px;
+    }
+    .list_items_group .third_column .second img {
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    .list_items_group .third_column .third img {
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+    .list_items_group .third_column .fourth img {
+        margin-right: 10px;
+        margin-left: 0px;
+    }
+}
+@media screen and (max-width:991px) {
+
+}
+@media screen and (max-width:767px) {
+
+}
+@media screen and (max-width:479px) { 
+
+}
