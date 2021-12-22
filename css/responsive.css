@@ -53,9 +53,56 @@
         margin-right: 10px;
         margin-left: 0px;
     }
+    .benifits_school .managment_owner img {
+        width: 100%;
+    }
+    .mobile_app .mobile_for_android img {
+        width: 75%;
+    }
+    
 }
 @media screen and (max-width:991px) {
-
+    .main_slider .carousel-caption h5 {
+        font-size: 25px;
+    }  
+    .main_slider .carousel-caption p {
+        font-size: 20px;
+    }
+    .middlelayer .font_set {
+        font-size: 17px;
+    }
+    .middlelayer .font_set abbr {
+        font-size: 14px;
+    }
+    .editable_text p {
+        font-size: 14px;
+    }
+    .list_items_group .second_column img {
+        width: 50%;
+    }
+    .list_items_group {
+        padding-bottom: 20px;
+    }
+    .benifits_school h2 {
+        font-size: 30px;
+    }
+    .benifits_school span {
+        font-size: 20px;
+    }
+    .benifits_school p {
+        font-size: 14px;
+        text-align: left;
+    }
+    .benifits_table .card-title {
+        font-size: 15px;
+    }
+    .benifits_table img {
+        width: 60%;
+        height: auto;
+    }
+    .uvp-list ul li {
+        font-size: 12px;
+    }
 }
 @media screen and (max-width:767px) {
 

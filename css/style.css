@@ -144,6 +144,9 @@ body {
   margin-right: 70px;
   margin-left: 20px;
 }
+.list_items_group .second_column img {
+  width: 70%;
+}
 .list_items_group .third_column .first img{
   margin-right: 20px;
 }
@@ -158,6 +161,9 @@ body {
 .list_items_group .third_column .fourth img{
   margin-right: 20px;
   margin-left: 70px;
+}
+.benifits_school .managment_owner img {
+  width: 85%;
 }
 .benifits_school h2 {
   color: #079da3;
@@ -268,6 +274,9 @@ position: relative;
 }
 .mobile_app {
   background-image: linear-gradient(to right, #74c5d8, #4e8abc);
+}
+.mobile_app .mobile_for_android img {
+  width: 50%;
 }
 .mobile_app h3 {
   color: #fff;
