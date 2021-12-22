@@ -31,6 +31,7 @@ body {
 .topbar ul li a {
   color: #f98346;
   text-decoration: none;
+  transition: color .10s ease-in-out;
 }
 .topbar ul li a:hover {
   color: #fff;

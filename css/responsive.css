@@ -81,7 +81,7 @@
         width: 50%;
     }
     .list_items_group {
-        padding-bottom: 20px;
+        padding-bottom: 0px;
     }
     .benifits_school h2 {
         font-size: 30px;
@@ -97,15 +97,58 @@
         font-size: 15px;
     }
     .benifits_table img {
-        width: 60%;
+        width: 40%;
         height: auto;
     }
     .uvp-list ul li {
         font-size: 12px;
     }
+    .mobile_app h3 {
+        font-size: 32px;
+    }
+    .mobile_app h4 {
+        font-size: 20px;
+    }
+    .mobile_app .mobile_for_android img {
+        width: 100%;
+    }
+    .mobile_app figcaption {
+        font-size: 10px;
+    }
+    .mobile_app figcaption span {
+        font-size: 13px;
+    }
+    .mobile_app h5 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .footer-newsletter {
+        text-align: center;
+        margin-top: 30px;
+    }
 }
 @media screen and (max-width:767px) {
-
+    .topbar .list-inline  {
+    text-align: center;
+    }
+    .list_items_group p {
+        font-size: 12px;
+    }
+    .benifits_school h2 {
+        font-size: 20px;
+    }
+    .benifits_school span {
+        font-size: 13px;
+    }
+    .benifits_school p {
+        font-size: 10px;
+        text-align: left;
+        line-height: 20px;
+    }
+    .uvp-list ul li {
+        font-size: 11px;
+        line-height: 17px;
+    }
 }
 @media screen and (max-width:479px) { 
 
