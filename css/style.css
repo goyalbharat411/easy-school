@@ -93,6 +93,9 @@ body {
   background: #172b4c;
   color: #fff;
 }
+.middlelayer img {
+  height: 60px;
+}
 .middlelayer .font_set {
   font-weight: 600;
   font-size: 18px;
