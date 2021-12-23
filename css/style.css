@@ -3,6 +3,9 @@
 ::before {
   box-sizing: border-box;
 }
+html, body {
+  overflow-x: hidden;
+}
 body {
   background-color: #fff;
   font-size: 13px;
@@ -332,9 +335,13 @@ position: relative;
   padding: 0.5rem 0.75em;
   background: #ffffffbf;
  }
+ .request_demo .form-outline {
+  margin-bottom: 15px;
+}
  .request_demo .form-outline .form-control~.form-label {
   padding-top: 0.7rem;
   font-size: 14px;
+  color: #4f4f4f;
  }
  .request_demo a {
   font-size: 15px;
@@ -390,13 +397,13 @@ ul.social-network li {
 	background-color:#3B5998;
 }
 .social-network a.icowhatsapp:hover {
-	background-color:#529d9f;
+	background-color:#00e676;
 }
 .social-network a.icoinstagram:hover {
 	background-color:#ca3999;
 }
 .social-network a.icoyoutube:hover {
-	background-color:#ff0000;
+	background-color:#463d3d;
 }
 .social-network a.icopinterest:hover i, .social-network a.icoFacebook:hover i, 
 .social-network a.icowhatsapp:hover i, .social-network a.icoinstagram:hover i, .social-network a.icoyoutube:hover i {
